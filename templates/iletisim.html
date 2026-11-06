@@ -1,0 +1,18 @@
+<h1 class="pagetitle">İletişim</h1>
+<div class="cgrid">
+  <iframe class="cmap" title="Harita" src="{{map}}" loading="lazy" allowfullscreen></iframe>
+  <div>
+    <div class="wg"><h3>Adres</h3><p>{{address}}</p></div>
+    <div class="wg"><h3>Telefon & E-posta</h3><p><a href="tel:{{tel}}">{{phone}}</a><br><a href="mailto:{{email}}">{{email}}</a></p></div>
+    <div class="wg"><h3>Çalışma Saatleri</h3>{{open}}<ul class="hours">{{hours}}</ul></div>
+    <a class="btn wabtn" href="https://wa.me/{{wa}}?text=Merhaba" target="_blank" rel="noopener">WhatsApp'tan Yazın</a>
+  </div>
+</div>
+<h2 class="st">Bize Yazın</h2>
+<form class="f js-form" name="iletisim" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="iletisim">
+  <div hidden><input name="bot-field" tabindex="-1" autocomplete="off"></div>
+  <div class="row2"><label>Adınız<input name="ad" required></label><label>E-posta<input name="eposta" type="email" required></label></div>
+  <label>Mesajınız<textarea name="mesaj" required></textarea></label>
+  <div><button class="btn" type="submit">Gönder</button> <span class="fmsg"></span></div>
+</form>

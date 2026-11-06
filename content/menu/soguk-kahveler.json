@@ -1,0 +1,48 @@
+{
+  "title": "Soğuk Kahveler",
+  "order": 2,
+  "note": "",
+  "items": [
+    {
+      "name": "Cold Brew",
+      "description": "18 saat soğuk demlenmiş",
+      "price": "105 ₺",
+      "tags": [
+        "soguk"
+      ],
+      "popular": true,
+      "image": ""
+    },
+    {
+      "name": "Iced Latte",
+      "description": "Buzlu süt ve espresso",
+      "price": "100 ₺",
+      "tags": [
+        "soguk"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Frappe",
+      "description": "Buzlu, kremalı",
+      "price": "110 ₺",
+      "tags": [
+        "soguk"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Espresso Tonic",
+      "description": "Tonik ve espresso",
+      "price": "105 ₺",
+      "tags": [
+        "yeni",
+        "soguk"
+      ],
+      "popular": false,
+      "image": ""
+    }
+  ]
+}

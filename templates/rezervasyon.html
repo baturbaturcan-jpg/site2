@@ -1,0 +1,10 @@
+<h1 class="pagetitle">Rezervasyon</h1>
+<p class="lead">Masanızı önceden ayırtın. Talebiniz bize ulaşınca telefonla ya da mesajla onaylarız.</p>
+<form class="f js-form" name="rezervasyon" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="rezervasyon">
+  <div hidden><input name="bot-field" tabindex="-1" autocomplete="off"></div>
+  <div class="row2"><label>Adınız Soyadınız<input name="ad" required></label><label>Telefon<input name="telefon" type="tel" required></label></div>
+  <div class="row3"><label>Tarih<input name="tarih" type="date" required></label><label>Saat<input name="saat" type="time" required></label><label>Kişi sayısı<input name="kisi" type="number" min="1" max="30" value="2" required></label></div>
+  <label>Notunuz (doğum günü, alerji vb.)<textarea name="not"></textarea></label>
+  <div><button class="btn" type="submit">Rezervasyon Talebi Gönder</button> <span class="fmsg"></span></div>
+</form>

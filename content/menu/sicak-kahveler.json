@@ -1,0 +1,67 @@
+{
+  "title": "Sıcak Kahveler",
+  "order": 1,
+  "note": "Tüm sıcak kahvelerimizde taze çekirdek kullanılır.",
+  "items": [
+    {
+      "name": "Espresso",
+      "description": "Yoğun ve aromatik tek shot",
+      "price": "70 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Americano",
+      "description": "Espresso ve sıcak su",
+      "price": "80 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Latte",
+      "description": "Espresso ve buharla ısıtılmış süt",
+      "price": "95 ₺",
+      "tags": [
+        "sicak"
+      ],
+      "popular": true,
+      "image": ""
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Eşit parça espresso, süt ve köpük",
+      "price": "95 ₺",
+      "tags": [],
+      "popular": true,
+      "image": ""
+    },
+    {
+      "name": "Flat White",
+      "description": "Kadifemsi süt dokusu, çift shot",
+      "price": "100 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Türk Kahvesi",
+      "description": "Közde, lokum eşliğinde",
+      "price": "75 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Filtre Kahve",
+      "description": "Günün çekirdeği, demleme",
+      "price": "85 ₺",
+      "tags": [
+        "yeni"
+      ],
+      "popular": false,
+      "image": ""
+    }
+  ]
+}

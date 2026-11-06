@@ -1,0 +1,93 @@
+backend:
+  name: github
+  repo: baturbaturcan-jpg/site2   # GitHub deponuzun adı farklıysa burayı değiştirin
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+locale: tr
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  - name: settings
+    label: Site Ayarları
+    files:
+      - name: general
+        label: Genel Ayarlar
+        file: content/settings.json
+        format: json
+        fields:
+          - { label: Dükkan Adı, name: site_title, widget: string }
+          - { label: Slogan, name: tagline, widget: string }
+          - { label: Duyuru Bandı Açık, name: announce_on, widget: boolean, default: false }
+          - { label: Duyuru Metni, name: announce_text, widget: string, required: false }
+          - { label: Duyuru Bağlantısı, name: announce_url, widget: string, required: false }
+          - { label: Üst Küçük Yazı, name: kicker, widget: string }
+          - { label: Ana Başlık, name: hero_title, widget: string }
+          - { label: Ana Açıklama, name: hero_text, widget: text }
+          - { label: Ana Görsel, name: hero_image, widget: image, required: false }
+          - { label: Hakkımızda Başlığı, name: about_title, widget: string }
+          - { label: Hakkımızda Metni, name: about_text, widget: text }
+          - { label: Hakkımızda Görseli, name: about_image, widget: image, required: false }
+          - { label: Adres, name: address, widget: string }
+          - { label: Harita Araması, name: map_query, widget: string, hint: "Haritada işaretlenecek adres" }
+          - { label: Telefon, name: phone, widget: string }
+          - { label: WhatsApp Numarası, name: whatsapp, widget: string, hint: "Ülke koduyla, örn. 905321234567" }
+          - { label: E-posta, name: email, widget: string }
+          - { label: Instagram Bağlantısı, name: instagram, widget: string, required: false }
+          - { label: Alt Bilgi Metni, name: footer_text, widget: string }
+          - label: Çalışma Saatleri (Pazartesiden Pazara 7 satır)
+            name: hours
+            widget: list
+            fields:
+              - { label: Gün, name: day, widget: string }
+              - { label: Açılış, name: open, widget: string, hint: "Örn. 08:00" }
+              - { label: Kapanış, name: close, widget: string, hint: "Örn. 23:00" }
+              - { label: O gün kapalı, name: closed, widget: boolean, default: false }
+          - label: Galeri
+            name: gallery
+            widget: list
+            required: false
+            fields:
+              - { label: Görsel, name: image, widget: image, required: false }
+              - { label: Açıklama, name: caption, widget: string }
+          - label: Menü Bağlantıları
+            name: menu
+            widget: list
+            fields:
+              - { label: Etiket, name: label, widget: string }
+              - { label: Adres, name: url, widget: string }
+
+  - name: menu
+    label: Menü (Kategoriler ve Ürünler)
+    folder: content/menu
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Kategori Adı, name: title, widget: string }
+      - { label: Sıra (1 en üstte), name: order, widget: number, value_type: int, default: 1 }
+      - { label: Kategori Notu, name: note, widget: string, required: false }
+      - label: Ürünler
+        name: items
+        widget: list
+        fields:
+          - { label: Ürün Adı, name: name, widget: string }
+          - { label: Açıklama, name: description, widget: string, required: false }
+          - { label: Fiyat, name: price, widget: string, hint: "Örn. 95 ₺" }
+          - { label: Etiketler, name: tags, widget: select, multiple: true, required: false, options: [{ label: Vegan, value: vegan }, { label: Glutensiz, value: glutensiz }, { label: Yeni, value: yeni }, { label: Soğuk, value: soguk }, { label: Sıcak, value: sicak }, { label: Şekersiz, value: sekersiz }] }
+          - { label: Ana Sayfada Öne Çıkar, name: popular, widget: boolean, default: false }
+          - { label: Görsel, name: image, widget: image, required: false }
+
+  - name: pages
+    label: Sayfalar
+    folder: content/pages
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Başlık, name: title, widget: string }
+      - { label: İçerik, name: body, widget: text, hint: "Paragraflar boş satırla ayrılır. Alt başlık için satırı '## ' ile başlatın." }

@@ -1,0 +1,113 @@
+{
+  "site_title": "Kahve Durağı",
+  "tagline": "Taze kavrulmuş çekirdek, sıcak bir köşe",
+  "announce_on": true,
+  "announce_text": "Hafta sonu özel: ikinci kahve yarı fiyatına!",
+  "announce_url": "/menu/",
+  "kicker": "Her gün taze kavrulur",
+  "hero_title": "Günün en güzel molası burada",
+  "hero_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "hero_image": "/uploads/hero.jpg",
+  "about_title": "Hikâyemiz",
+  "about_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "about_image": "/uploads/hakkimizda.jpg",
+  "address": "Örnek Mah. Kahve Sok. No:7, Beyoğlu / İstanbul",
+  "map_query": "Galata Kulesi, İstanbul",
+  "phone": "0212 000 00 00",
+  "whatsapp": "905XXXXXXXXX",
+  "email": "merhaba@ornek.com",
+  "instagram": "",
+  "footer_text": "© 2026 Tüm hakları saklıdır.",
+  "hours": [
+    {
+      "day": "Pazartesi",
+      "open": "08:00",
+      "close": "23:00",
+      "closed": false
+    },
+    {
+      "day": "Salı",
+      "open": "08:00",
+      "close": "23:00",
+      "closed": false
+    },
+    {
+      "day": "Çarşamba",
+      "open": "08:00",
+      "close": "23:00",
+      "closed": false
+    },
+    {
+      "day": "Perşembe",
+      "open": "08:00",
+      "close": "23:00",
+      "closed": false
+    },
+    {
+      "day": "Cuma",
+      "open": "08:00",
+      "close": "23:00",
+      "closed": false
+    },
+    {
+      "day": "Cumartesi",
+      "open": "09:00",
+      "close": "23:30",
+      "closed": false
+    },
+    {
+      "day": "Pazar",
+      "open": "09:00",
+      "close": "23:30",
+      "closed": false
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/uploads/galeri-1.jpg",
+      "caption": "Sabah kahvesi"
+    },
+    {
+      "image": "/uploads/galeri-2.jpg",
+      "caption": "Tatlı tezgâhı"
+    },
+    {
+      "image": "/uploads/galeri-3.jpg",
+      "caption": "Barista anı"
+    },
+    {
+      "image": "/uploads/galeri-4.jpg",
+      "caption": "Bahçe köşesi"
+    },
+    {
+      "image": "/uploads/galeri-5.jpg",
+      "caption": "Çekirdek seçkisi"
+    },
+    {
+      "image": "/uploads/galeri-6.jpg",
+      "caption": "Akşam ışığı"
+    }
+  ],
+  "menu": [
+    {
+      "label": "Ana Sayfa",
+      "url": "/"
+    },
+    {
+      "label": "Menü",
+      "url": "/menu/"
+    },
+    {
+      "label": "Hakkımızda",
+      "url": "/hakkimizda/"
+    },
+    {
+      "label": "Rezervasyon",
+      "url": "/rezervasyon/"
+    },
+    {
+      "label": "İletişim",
+      "url": "/iletisim/"
+    }
+  ]
+}

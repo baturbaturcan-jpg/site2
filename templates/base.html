@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  {{announce}}
+  <header class="head"><div class="in">
+    <a href="/" class="logo">☕ {{site_title}}</a>
+    <nav>{{menu}}</nav>
+  </div></header>
+  <main>{{content}}</main>
+  <footer><div class="in fgrid">
+    <div><strong>{{site_title}}</strong><p>{{tagline}}</p><p>{{footer}}</p></div>
+    <div><h4>Çalışma Saatleri</h4><ul class="hours">{{hours}}</ul></div>
+    <div><h4>İletişim</h4><p>{{address}}</p><p><a href="tel:{{tel}}">{{phone}}</a></p><p><a href="mailto:{{email}}">{{email}}</a></p><p>{{social}}</p></div>
+  </div></footer>
+  <a class="fab" href="https://wa.me/{{wa}}?text=Merhaba" target="_blank" rel="noopener">WhatsApp</a>
+  <script src="/site.js" defer></script>
+</body>
+</html>

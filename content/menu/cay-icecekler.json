@@ -1,0 +1,44 @@
+{
+  "title": "Çaylar & Diğer İçecekler",
+  "order": 3,
+  "note": "",
+  "items": [
+    {
+      "name": "Demleme Çay",
+      "description": "Süzme, bardakta",
+      "price": "35 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Bitki Çayı",
+      "description": "Mevsim bitkileri",
+      "price": "60 ₺",
+      "tags": [
+        "vegan"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Ev Limonatası",
+      "description": "Taze nane ile",
+      "price": "75 ₺",
+      "tags": [
+        "soguk",
+        "vegan"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Sıcak Çikolata",
+      "description": "Bitter çikolata ile",
+      "price": "95 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    }
+  ]
+}

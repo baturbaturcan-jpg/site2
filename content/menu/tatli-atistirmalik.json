@@ -1,0 +1,51 @@
+{
+  "title": "Tatlılar & Atıştırmalıklar",
+  "order": 4,
+  "note": "Günlük taze hazırlanır, tükenen ürünler yenilenmez.",
+  "items": [
+    {
+      "name": "San Sebastian Cheesecake",
+      "description": "Yumuşak içli, yanık yüzey",
+      "price": "140 ₺",
+      "tags": [],
+      "popular": true,
+      "image": ""
+    },
+    {
+      "name": "Brownie",
+      "description": "Sıcak servis, dondurma ile",
+      "price": "120 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Tuzlu Kurabiye",
+      "description": "Tereyağlı",
+      "price": "55 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Avokadolu Tost",
+      "description": "Ekşi mayalı ekmek",
+      "price": "150 ₺",
+      "tags": [
+        "vegan"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Glutensiz Kek",
+      "description": "Badem unlu",
+      "price": "90 ₺",
+      "tags": [
+        "glutensiz"
+      ],
+      "popular": false,
+      "image": ""
+    }
+  ]
+}
