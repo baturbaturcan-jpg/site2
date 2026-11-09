@@ -261,3 +261,6 @@ a.mi:hover .ph.th{transform:scale(1.04)}
   .prod{grid-template-columns:1fr;gap:24px}.pinfo h1{font-size:34px}
   .ann{min-height:260px}.ann-t{padding:26px 24px}
 }
+/* Üst bölüm: logo ve telefon üstte, menü çubuğu altta */
+.head .in{flex-direction:column;align-items:flex-start;gap:12px}
+@media(max-width:860px){.head .in{align-items:center}}
