@@ -114,3 +114,89 @@ footer .hours li{border-color:#4a3a2c}
 .rev p{font-style:italic;margin:8px 0 12px;font-size:16px}
 .rev b{font:700 14px var(--sans);color:var(--acc)}
 @media(max-width:860px){.feats{grid-template-columns:1fr}}
+
+/* ===== v2: üst bölüm, menü resimleri, takvim, WhatsApp ===== */
+:root{--script:"Caveat","Segoe Script","Bradley Hand","Brush Script MT",cursive}
+.head{background:var(--head,#dfcfb4);border-bottom:3px solid var(--dark)}
+.head .in{padding-top:16px;padding-bottom:16px}
+.logo{display:flex;align-items:center;gap:10px;font:700 44px/1 var(--script);color:var(--dark)}
+.logo-ico{font-size:36px}
+.logo-img{height:56px;width:auto;border-radius:8px}
+nav{gap:12px;flex-wrap:wrap}
+nav a{padding:12px 24px;border-radius:40px;background:#fff8ee;border:2px solid var(--dark);box-shadow:0 4px 0 var(--dark);font:800 17px var(--sans);transition:transform .12s,box-shadow .12s,background .12s}
+nav a:hover{background:var(--acc);color:#fff;transform:translateY(2px);box-shadow:0 2px 0 var(--dark)}
+nav a[aria-current=page]{background:var(--dark);color:#fff}
+
+.feat .fi{font-size:38px;line-height:1;min-height:44px}
+.feat .fi img{width:56px;height:56px;object-fit:contain}
+
+.mgrid{gap:0 44px}
+.mi{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.mi .ph.th{aspect-ratio:1/1;border-radius:14px}
+.mi .ph.th::before{background-size:70%}
+
+.srow{display:grid;grid-template-columns:280px 1fr;gap:34px;align-items:center;margin:44px 0}
+.srow .ph{aspect-ratio:4/3;border-radius:18px}
+.srow h2{margin:0 0 8px;font-size:30px}
+.page .body{max-width:none}
+
+.venue{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 0 44px}
+.venue figure{margin:0}
+.venue .ph{aspect-ratio:4/3}
+.venue figcaption{font:14px var(--sans);color:var(--mut);padding-top:8px}
+
+/* Takvim */
+.cal{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}
+.cal-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.cal-h b{font:700 26px var(--serif)}
+.cal-h button{width:44px;height:44px;border-radius:50%;border:2px solid var(--dark);background:#fff8ee;font:800 20px var(--sans);cursor:pointer}
+.cal-h button:hover{background:var(--acc);color:#fff}
+.cal-g{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal-w{text-align:center;font:700 12px var(--sans);color:var(--mut);padding:4px 0}
+.day{min-height:84px;border:1px solid var(--line);border-radius:12px;background:var(--bg);padding:6px 7px;font:700 14px var(--sans);text-align:left;color:var(--fg);display:flex;flex-direction:column;gap:2px}
+.day.has{cursor:pointer;background:#fff1de;border-color:var(--acc)}
+.day.has:hover{transform:translateY(-2px)}
+.day.today{outline:2px solid var(--dark)}
+.day.sel{background:var(--acc);color:#fff;border-color:var(--acc)}
+.day .ic{font-size:22px;line-height:1;display:flex;gap:2px;flex-wrap:wrap}
+.day .ic img{width:24px;height:24px;object-fit:contain}
+.evp{margin-top:24px;display:grid;gap:18px}
+.evc{display:grid;grid-template-columns:300px 1fr;background:var(--card);border-radius:20px;overflow:hidden}
+.evc .ph{border-radius:0;aspect-ratio:auto;height:100%;min-height:200px}
+.evc .eb{padding:22px 26px}
+.evc .ei{font-size:30px}
+.evc .ei img{width:40px;height:40px;object-fit:contain}
+.evc h3{margin:4px 0 4px;font-size:26px}
+.evc .em{font:700 14px var(--sans);color:var(--acc);margin-bottom:8px}
+.evc p{margin:0 0 14px}
+.emonth{margin-top:8px}
+.emonth h3{font-size:22px;margin:10px 0}
+.emonth button{display:flex;gap:10px;width:100%;text-align:left;padding:10px 14px;margin-bottom:8px;border:1px solid var(--line);border-radius:12px;background:#fff;font:600 15px var(--sans);cursor:pointer;align-items:center}
+.emonth button:hover{border-color:var(--acc)}
+.upc{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;margin-bottom:20px}
+.upcard{background:var(--card);border-radius:18px;overflow:hidden;display:block}
+.upcard .ph{border-radius:0;aspect-ratio:16/9}
+.upcard div.t{padding:12px 16px 16px}
+.upcard small{font:700 13px var(--sans);color:var(--acc)}
+.upcard h4{margin:2px 0 0;font:700 19px var(--serif)}
+
+/* WhatsApp: her sayfada sabit */
+.fab{display:none}
+.wa{position:fixed;right:18px;bottom:88px;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.wa-fab{width:64px;height:64px;border:0;border-radius:50%;background:#25d366;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.3);display:grid;place-items:center;animation:wap 2.6s ease-in-out infinite}
+.wa-fab svg{width:36px;height:36px;fill:#fff}
+@keyframes wap{50%{transform:scale(1.07)}}
+.wa-box{width:min(320px,calc(100vw - 36px));background:#fff;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.3);overflow:hidden}
+.wa-h{display:flex;justify-content:space-between;align-items:center;background:#075e54;color:#fff;padding:14px 16px;font:700 15px var(--sans)}
+.wa-h button{background:none;border:0;color:#fff;font-size:26px;cursor:pointer;line-height:1}
+.wa-b{padding:14px;background:#ece5dd}
+.wa-b p{margin:0 0 10px;background:#fff;padding:10px 12px;border-radius:0 12px 12px 12px;font:14px var(--sans)}
+.wa-b textarea{width:100%;min-height:84px;border:1px solid #cfc6bb;border-radius:12px;padding:10px;font:15px var(--sans);resize:vertical}
+.wa-send{display:block;margin-top:10px;text-align:center;background:#25d366;color:#fff;padding:12px;border-radius:30px;font:700 15px var(--sans)}
+@media(prefers-reduced-motion:reduce){.wa-fab{animation:none}}
+
+@media(max-width:860px){
+  .logo{font-size:36px}.head .in{justify-content:center}nav{justify-content:center}nav a{padding:10px 18px;font-size:15px}
+  .srow,.evc{grid-template-columns:1fr}.venue{grid-template-columns:1fr}.mgrid{grid-template-columns:1fr}
+  .day{min-height:60px;padding:4px}.day .ic{font-size:16px}.day .ic img{width:18px;height:18px}
+}

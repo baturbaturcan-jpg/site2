@@ -9,7 +9,7 @@
       "price": "70 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-espresso.svg"
     },
     {
       "name": "Americano",
@@ -17,7 +17,7 @@
       "price": "80 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-americano.svg"
     },
     {
       "name": "Latte",
@@ -27,7 +27,7 @@
         "sicak"
       ],
       "popular": true,
-      "image": "/uploads/latte.svg"
+      "image": "/uploads/m-latte.svg"
     },
     {
       "name": "Cappuccino",
@@ -35,7 +35,7 @@
       "price": "95 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/kapuccino.svg"
+      "image": "/uploads/m-cappuccino.svg"
     },
     {
       "name": "Flat White",
@@ -43,7 +43,7 @@
       "price": "100 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-flat-white.svg"
     },
     {
       "name": "Cortado",
@@ -51,7 +51,7 @@
       "price": "90 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-cortado.svg"
     },
     {
       "name": "Türk Kahvesi",
@@ -59,7 +59,7 @@
       "price": "75 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-turk-kahvesi.svg"
     },
     {
       "name": "Filtre Kahve",
@@ -69,7 +69,7 @@
         "yeni"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-filtre-kahve.svg"
     }
   ]
 }

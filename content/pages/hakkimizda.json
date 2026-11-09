@@ -1,4 +1,26 @@
 {
   "title": "Hakkımızda",
-  "body": "Kahve Durağı, 2019 yılında iki arkadaşın evde kahve kavurma merakıyla başladı. Bugün küçük bir ekiple, mahalleye hizmet veren bir kahve dükkânıyız.\n\n## Çekirdeklerimiz\n\nÇekirdeklerimizi Etiyopya, Kolombiya ve Brezilya'daki küçük üreticilerden, adil fiyatla alıyoruz. Her parti dükkânın arka odasında, en fazla 5 kilogramlık küçük porsiyonlarla kavruluyor. Böylece fincanınıza gelen kahve, en geç on gün önce kavrulmuş oluyor.\n\n## Mutfağımız\n\nTatlılarımız ve tuzlularımız her sabah dükkânın mutfağında hazırlanıyor. Katkı maddesi kullanmıyoruz, tarifler tamamen bize ait. Vegan ve glutensiz seçeneklerimizi menüde etiketlerle gösteriyoruz.\n\n## Ekibimiz\n\nBaristalarımız her fincanı bir ritüel olarak görüyor. Çekirdekler, demleme yöntemleri ya da önerilerimiz hakkında bize istediğiniz soruyu sorabilirsiniz.\n\n## Etkinlikler\n\nAyda bir kez cumartesi akşamları kahve tadım gecesi, ayın son pazarı ise akustik müzik günü düzenliyoruz. Duyurular için bizi Instagram'dan ya da dükkândaki panodan takip edebilirsiniz."
+  "body": "Kahve Durağı, 2019 yılında iki arkadaşın evde kahve kavurma merakıyla başladı. Bugün küçük bir ekiple, mahalleye hizmet veren bir kahve dükkânıyız.",
+  "sections": [
+    {
+      "title": "Çekirdeklerimiz",
+      "image": "/uploads/sec-cekirdek.svg",
+      "text": "Çekirdeklerimizi Etiyopya, Kolombiya ve Brezilya'daki küçük üreticilerden, adil fiyatla alıyoruz. Her parti dükkânın arka odasında, en fazla 5 kilogramlık küçük porsiyonlarla kavruluyor. Böylece fincanınıza gelen kahve, en geç on gün önce kavrulmuş oluyor."
+    },
+    {
+      "title": "Mutfağımız",
+      "image": "/uploads/sec-mutfak.svg",
+      "text": "Tatlılarımız ve tuzlularımız her sabah dükkânın mutfağında hazırlanıyor. Katkı maddesi kullanmıyoruz, tarifler tamamen bize ait. Vegan ve glutensiz seçeneklerimizi menüde etiketlerle gösteriyoruz."
+    },
+    {
+      "title": "Ekibimiz",
+      "image": "/uploads/sec-ekip.svg",
+      "text": "Baristalarımız her fincanı bir ritüel olarak görüyor. Çekirdekler, demleme yöntemleri ya da önerilerimiz hakkında bize istediğiniz soruyu sorabilirsiniz."
+    },
+    {
+      "title": "Etkinliklerimiz",
+      "image": "/uploads/sec-etkinlik.svg",
+      "text": "Ayda bir kez cumartesi akşamları kahve tadım gecesi, hafta sonları resim ve el işi atölyeleri, ayın son pazarı ise akustik müzik günü düzenliyoruz.\n\n<p><a class=\"btn\" href=\"/etkinlikler/\">Etkinlik Takvimini Gör</a></p>"
+    }
+  ]
 }

@@ -11,7 +11,7 @@
         "soguk"
       ],
       "popular": true,
-      "image": "/uploads/coldbrew.svg"
+      "image": "/uploads/m-cold-brew.svg"
     },
     {
       "name": "Iced Latte",
@@ -21,7 +21,7 @@
         "soguk"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-iced-latte.svg"
     },
     {
       "name": "Frappe",
@@ -31,7 +31,7 @@
         "soguk"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-frappe.svg"
     },
     {
       "name": "Espresso Tonic",
@@ -42,7 +42,7 @@
         "soguk"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-espresso-tonic.svg"
     },
     {
       "name": "Affogato",
@@ -50,7 +50,7 @@
       "price": "115 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-affogato.svg"
     }
   ]
 }

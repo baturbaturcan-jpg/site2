@@ -20,6 +20,9 @@ collections:
         fields:
           - { label: Dükkan Adı, name: site_title, widget: string }
           - { label: Slogan, name: tagline, widget: string }
+          - { label: Logo Simgesi (emoji), name: logo_icon, widget: string, required: false, hint: "Logo resmi yüklemezseniz bu emoji görünür" }
+          - { label: Logo Resmi (isteğe bağlı), name: logo_image, widget: image, required: false, hint: "Yüklenirse emojinin yerine geçer" }
+          - { label: Üst Bölüm Rengi, name: header_color, widget: color, default: "#dfcfb4" }
           - { label: Duyuru Bandı Açık, name: announce_on, widget: boolean, default: false }
           - { label: Duyuru Metni, name: announce_text, widget: string, required: false }
           - { label: Duyuru Bağlantısı, name: announce_url, widget: string, required: false }
@@ -52,12 +55,20 @@ collections:
             fields:
               - { label: Görsel, name: image, widget: image, required: false }
               - { label: Açıklama, name: caption, widget: string }
+          - label: Mekân Fotoğrafları (iletişim sayfası)
+            name: venue
+            widget: list
+            required: false
+            fields:
+              - { label: Görsel, name: image, widget: image, required: false }
+              - { label: Açıklama, name: caption, widget: string }
           - label: Özellik Kutuları (ana sayfa)
             name: features
             widget: list
             required: false
             fields:
-              - { label: Simge (emoji), name: icon, widget: string }
+              - { label: Simge (emoji), name: icon, widget: string, required: false }
+              - { label: Simge Resmi (isteğe bağlı, emojinin yerine geçer), name: image, widget: image, required: false }
               - { label: Başlık, name: title, widget: string }
               - { label: Metin, name: text, widget: string }
           - label: Misafir Yorumları
@@ -105,4 +116,29 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: Başlık, name: title, widget: string }
-      - { label: İçerik, name: body, widget: text, hint: "Paragraflar boş satırla ayrılır. Alt başlık için satırı '## ' ile başlatın." }
+      - { label: Giriş Metni, name: body, widget: text, required: false, hint: "Paragraflar boş satırla ayrılır." }
+      - label: Resimli Bölümler (başlık + resim + metin)
+        name: sections
+        widget: list
+        required: false
+        fields:
+          - { label: Başlık, name: title, widget: string }
+          - { label: Resim, name: image, widget: image, required: false }
+          - { label: Metin, name: text, widget: text }
+
+  - name: events
+    label: Etkinlikler (Takvim)
+    folder: content/events
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Başlık, name: title, widget: string }
+      - { label: Tarih, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: Saat, name: time, widget: string, required: false, hint: "Örn. 19:00 - 21:00" }
+      - { label: Simge (emoji), name: icon, widget: string, required: false, hint: "Takvimde günün üstünde görünür, örn. 🎨" }
+      - { label: Simge Resmi (isteğe bağlı), name: icon_image, widget: image, required: false }
+      - { label: Etkinlik Görseli, name: image, widget: image, required: false }
+      - { label: Açıklama, name: description, widget: text }
+      - { label: Yayında, name: active, widget: boolean, default: true }

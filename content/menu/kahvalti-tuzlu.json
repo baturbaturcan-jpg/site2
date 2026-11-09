@@ -11,7 +11,7 @@
         "vegan"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-avokadolu-tost.svg"
     },
     {
       "name": "Kahvaltı Tabağı",
@@ -19,7 +19,7 @@
       "price": "260 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-kahvalti-tabagi.svg"
     },
     {
       "name": "Peynirli Tost",
@@ -27,7 +27,7 @@
       "price": "120 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-peynirli-tost.svg"
     },
     {
       "name": "Mercimek Çorbası",
@@ -35,7 +35,7 @@
       "price": "80 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-mercimek-corbasi.svg"
     }
   ]
 }

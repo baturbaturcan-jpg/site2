@@ -9,7 +9,7 @@
       "price": "140 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/cheesecake.svg"
+      "image": "/uploads/m-san-sebastian-cheesecake.svg"
     },
     {
       "name": "Brownie",
@@ -17,7 +17,7 @@
       "price": "120 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/brownie.svg"
+      "image": "/uploads/m-brownie.svg"
     },
     {
       "name": "Tuzlu Kurabiye",
@@ -25,7 +25,7 @@
       "price": "55 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-tuzlu-kurabiye.svg"
     },
     {
       "name": "Limonlu Tart",
@@ -33,7 +33,7 @@
       "price": "110 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-limonlu-tart.svg"
     },
     {
       "name": "Glutensiz Badem Kek",
@@ -43,7 +43,7 @@
         "glutensiz"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-glutensiz-badem-kek.svg"
     },
     {
       "name": "Vegan Havuçlu Kek",
@@ -54,7 +54,7 @@
         "yeni"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-vegan-havuclu-kek.svg"
     }
   ]
 }

@@ -9,7 +9,7 @@
       "price": "35 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/cay.svg"
+      "image": "/uploads/m-demleme-cay.svg"
     },
     {
       "name": "Bitki Çayı",
@@ -19,7 +19,7 @@
         "vegan"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-bitki-cayi.svg"
     },
     {
       "name": "Ev Limonatası",
@@ -30,7 +30,7 @@
         "vegan"
       ],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-ev-limonatasi.svg"
     },
     {
       "name": "Sıcak Çikolata",
@@ -38,7 +38,7 @@
       "price": "95 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-sicak-cikolata.svg"
     },
     {
       "name": "Chai Latte",
@@ -46,7 +46,7 @@
       "price": "90 ₺",
       "tags": [],
       "popular": false,
-      "image": ""
+      "image": "/uploads/m-chai-latte.svg"
     }
   ]
 }

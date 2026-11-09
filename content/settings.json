@@ -102,6 +102,10 @@
       "url": "/hakkimizda/"
     },
     {
+      "label": "Etkinlikler",
+      "url": "/etkinlikler/"
+    },
+    {
       "label": "Rezervasyon",
       "url": "/rezervasyon/"
     },
@@ -114,17 +118,20 @@
     {
       "icon": "☕",
       "title": "Taze Kavrum",
-      "text": "Çekirdeklerimizi haftalık küçük partilerde kavuruyor, en geç 10 gün içinde servis ediyoruz."
+      "text": "Çekirdeklerimizi haftalık küçük partilerde kavuruyor, en geç 10 gün içinde servis ediyoruz.",
+      "image": ""
     },
     {
       "icon": "🥐",
       "title": "Ev Yapımı Tatlılar",
-      "text": "Her sabah taze: cheesecake, brownie, kurabiye ve mevsim tatlıları, katkısız."
+      "text": "Her sabah taze: cheesecake, brownie, kurabiye ve mevsim tatlıları, katkısız.",
+      "image": ""
     },
     {
       "icon": "📶",
       "title": "Çalışma Dostu",
-      "text": "Hızlı Wi-Fi, bol priz ve sessiz bir köşe. Laptopunuzla gününüzü burada geçirebilirsiniz."
+      "text": "Hızlı Wi-Fi, bol priz ve sessiz bir köşe. Laptopunuzla gününüzü burada geçirebilirsiniz.",
+      "image": ""
     }
   ],
   "reviews": [
@@ -143,6 +150,23 @@
     {
       "name": "Hasan B.",
       "text": "Türk kahvesi tam kıvamında, yanında gelen lokum da cabası. Mahallenin en keyifli köşesi."
+    }
+  ],
+  "logo_icon": "☕",
+  "logo_image": "",
+  "header_color": "#dfcfb4",
+  "venue": [
+    {
+      "image": "/uploads/mekan-dis.svg",
+      "caption": "Dış cephe"
+    },
+    {
+      "image": "/uploads/mekan-ic.svg",
+      "caption": "İç mekân"
+    },
+    {
+      "image": "/uploads/mekan-masa.svg",
+      "caption": "Bir fincan kahve, yanında sıcacık çörek"
     }
   ]
 }
