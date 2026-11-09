@@ -255,12 +255,13 @@ a.mi:hover .ph.th{transform:scale(1.04)}
 .adots button{width:11px;height:11px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.5);cursor:pointer}
 .adots button.on{background:#fff}
 
+/* Üst bölüm: logo ve telefon üstte, menü çubuğu altta */
+.head .in{flex-direction:column;align-items:flex-start;gap:12px}
+@media(max-width:860px){.head .in{align-items:center}}
+
 @media(max-width:860px){
   .brand{justify-content:center}.hphone{padding-left:0;border:0;align-items:center}
   nav{border-radius:24px;justify-content:center}nav a{padding:9px 14px;font-size:14px}
   .prod{grid-template-columns:1fr;gap:24px}.pinfo h1{font-size:34px}
   .ann{min-height:260px}.ann-t{padding:26px 24px}
 }
-/* Üst bölüm: logo ve telefon üstte, menü çubuğu altta */
-.head .in{flex-direction:column;align-items:flex-start;gap:12px}
-@media(max-width:860px){.head .in{align-items:center}}
