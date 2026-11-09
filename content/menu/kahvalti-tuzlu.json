@@ -11,7 +11,10 @@
         "vegan"
       ],
       "popular": false,
-      "image": "/uploads/m-avokadolu-tost.svg"
+      "image": "/uploads/m-avokadolu-tost.svg",
+      "details": "Ekşi mayalı ekmek üzerine ezilmiş avokado, kırmızı biber, nar ekşisi ve susam. Doyurucu ve hafif.",
+      "ingredients": "Ekşi mayalı ekmek, avokado, nar ekşisi, susam",
+      "allergens": "Gluten, susam"
     },
     {
       "name": "Kahvaltı Tabağı",
@@ -19,7 +22,10 @@
       "price": "260 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-kahvalti-tabagi.svg"
+      "image": "/uploads/m-kahvalti-tabagi.svg",
+      "details": "Üç çeşit peynir, zeytin, bal-kaymak, yumurta, domates ve salatalık. Sınırsız çay eşliğinde, 08:00-12:00 arası.",
+      "ingredients": "Peynir, zeytin, bal, kaymak, yumurta, sebze, ekmek",
+      "allergens": "Süt, yumurta, gluten"
     },
     {
       "name": "Peynirli Tost",
@@ -27,7 +33,10 @@
       "price": "120 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-peynirli-tost.svg"
+      "image": "/uploads/m-peynirli-tost.svg",
+      "details": "Kaşar ve beyaz peynir, ekşi mayalı ekmekte altın rengi olana kadar kızartılır.",
+      "ingredients": "Kaşar, beyaz peynir, ekmek",
+      "allergens": "Süt, gluten"
     },
     {
       "name": "Mercimek Çorbası",
@@ -35,7 +44,10 @@
       "price": "80 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-mercimek-corbasi.svg"
+      "image": "/uploads/m-mercimek-corbasi.svg",
+      "details": "Her gün taze hazırlanır, limon ve kızarmış ekmekle servis edilir.",
+      "ingredients": "Kırmızı mercimek, soğan, havuç, tereyağı",
+      "allergens": "Süt"
     }
   ]
 }

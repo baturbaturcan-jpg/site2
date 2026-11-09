@@ -43,6 +43,34 @@
     wa.querySelector('.wa-x').addEventListener('click', function () { box.hidden = true; });
   }
 
+  // Duyurular: tarih aralığına göre göster (her yıl tekrar desteği), birden fazlaysa döndür
+  var wrapA = document.querySelector('.annwrap');
+  if (wrapA) {
+    var tdy = new Date(), t = tdy.getFullYear() + '-' + (tdy.getMonth() < 9 ? '0' : '') + (tdy.getMonth() + 1) + '-' + (tdy.getDate() < 10 ? '0' : '') + tdy.getDate();
+    var inRange = function (a) {
+      var f = a.dataset.from || '', u = a.dataset.until || '';
+      if (a.dataset.yearly === '1') {
+        var md = t.slice(5), fm = f ? f.slice(5) : '01-01', um = u ? u.slice(5) : '12-31';
+        return fm <= um ? (md >= fm && md <= um) : (md >= fm || md <= um);
+      }
+      return (!f || t >= f) && (!u || t <= u);
+    };
+    var live = $$('.ann').filter(inRange);
+    if (!live.length) { wrapA.remove(); }
+    else {
+      var cur = 0, timer;
+      var show = function (i) { cur = i; live.forEach(function (a, k) { a.hidden = k !== i; }); $$('.adots button').forEach(function (b, k) { b.className = k === i ? 'on' : ''; }); };
+      show(0);
+      if (live.length > 1) {
+        var dots = document.createElement('div'); dots.className = 'adots';
+        live.forEach(function (a, k) { var b = document.createElement('button'); b.setAttribute('aria-label', (k + 1) + '. duyuru'); b.onclick = function () { show(k); }; dots.appendChild(b); });
+        wrapA.appendChild(dots); show(0);
+        timer = setInterval(function () { show((cur + 1) % live.length); }, 7000);
+        wrapA.addEventListener('mouseenter', function () { clearInterval(timer); });
+      }
+    }
+  }
+
   // Etkinlikler
   var evEl = document.getElementById('evdata'), EV = [];
   try { EV = JSON.parse(evEl.textContent); } catch (e) {}

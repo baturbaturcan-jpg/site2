@@ -168,5 +168,10 @@
       "image": "/uploads/mekan-masa.svg",
       "caption": "Bir fincan kahve, yanında sıcacık çörek"
     }
-  ]
+  ],
+  "logo_uppercase": true,
+  "header_note": "Rezervasyon & Telefon",
+  "ads_on": true,
+  "ad_placeholders": true,
+  "ads": []
 }

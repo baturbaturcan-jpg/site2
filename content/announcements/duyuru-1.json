@@ -1,0 +1,13 @@
+{
+  "title": "Cumhuriyet Bayramımız Kutlu Olsun!",
+  "subtitle": "29 Ekim",
+  "text": "Bu özel günde tüm misafirlerimize bir fincan kahve ikram ediyoruz. Nice yıllara!",
+  "image": "/uploads/duyuru-cumhuriyet.svg",
+  "bg_color": "#c8102e",
+  "link_label": "",
+  "link_url": "",
+  "from": "2026-10-28",
+  "until": "2026-10-29",
+  "yearly": true,
+  "active": true
+}

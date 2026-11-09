@@ -9,7 +9,10 @@
       "price": "140 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/m-san-sebastian-cheesecake.svg"
+      "image": "/uploads/m-san-sebastian-cheesecake.svg",
+      "details": "Yanık yüzeyli, içi kremsi ve yumuşak. Yaban mersini sosuyla servis edilir, kahveyle harika gider.",
+      "ingredients": "Krem peynir, krema, yumurta, şeker, yaban mersini",
+      "allergens": "Süt, yumurta, gluten"
     },
     {
       "name": "Brownie",
@@ -17,7 +20,10 @@
       "price": "120 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/m-brownie.svg"
+      "image": "/uploads/m-brownie.svg",
+      "details": "Dışı çıtır, içi akışkan bitter çikolatalı brownie, sıcak servis edilir ve yanında vanilyalı dondurma gelir.",
+      "ingredients": "Bitter çikolata, tereyağı, yumurta, un, fındık",
+      "allergens": "Süt, yumurta, gluten, fındık"
     },
     {
       "name": "Tuzlu Kurabiye",
@@ -25,7 +31,10 @@
       "price": "55 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-tuzlu-kurabiye.svg"
+      "image": "/uploads/m-tuzlu-kurabiye.svg",
+      "details": "Tereyağlı hamur, bitter çikolata parçaları ve üzerine serpilen deniz tuzuyla tatlı-tuzlu bir denge.",
+      "ingredients": "Tereyağı, un, çikolata, deniz tuzu",
+      "allergens": "Süt, gluten"
     },
     {
       "name": "Limonlu Tart",
@@ -33,7 +42,10 @@
       "price": "110 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-limonlu-tart.svg"
+      "image": "/uploads/m-limonlu-tart.svg",
+      "details": "İnce çıtır hamur ve ekşi-tatlı limon kremasıyla ferah bir bitiş.",
+      "ingredients": "Un, tereyağı, limon, yumurta, şeker",
+      "allergens": "Süt, yumurta, gluten"
     },
     {
       "name": "Glutensiz Badem Kek",
@@ -43,7 +55,10 @@
         "glutensiz"
       ],
       "popular": false,
-      "image": "/uploads/m-glutensiz-badem-kek.svg"
+      "image": "/uploads/m-glutensiz-badem-kek.svg",
+      "details": "Badem unu ve portakal kabuğu rendesiyle hazırlanan, gluten içermeyen nemli kek.",
+      "ingredients": "Badem unu, yumurta, portakal, şeker",
+      "allergens": "Yumurta, badem"
     },
     {
       "name": "Vegan Havuçlu Kek",
@@ -54,7 +69,10 @@
         "yeni"
       ],
       "popular": false,
-      "image": "/uploads/m-vegan-havuclu-kek.svg"
+      "image": "/uploads/m-vegan-havuclu-kek.svg",
+      "details": "Havuç, ceviz ve tarçınla yapılan, süt ve yumurta içermeyen; hindistan cevizi kremalı kek.",
+      "ingredients": "Havuç, ceviz, tarçın, hindistan cevizi kreması",
+      "allergens": "Ceviz, gluten"
     }
   ]
 }

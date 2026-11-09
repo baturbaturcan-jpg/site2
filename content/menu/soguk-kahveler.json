@@ -11,7 +11,10 @@
         "soguk"
       ],
       "popular": true,
-      "image": "/uploads/m-cold-brew.svg"
+      "image": "/uploads/m-cold-brew.svg",
+      "details": "Kaba öğütülmüş çekirdekler 18 saat soğuk suda demlenir. Düşük asiditeli, tatlı ve yumuşak içimli, buzla servis edilir.",
+      "ingredients": "Kahve, soğuk su, buz",
+      "allergens": "Yok"
     },
     {
       "name": "Iced Latte",
@@ -21,7 +24,10 @@
         "soguk"
       ],
       "popular": false,
-      "image": "/uploads/m-iced-latte.svg"
+      "image": "/uploads/m-iced-latte.svg",
+      "details": "Bol buz, soğuk süt ve çift shot espresso. Vanilya ya da karamel şurup ekletebilirsiniz.",
+      "ingredients": "Espresso, süt, buz",
+      "allergens": "Süt"
     },
     {
       "name": "Frappe",
@@ -31,7 +37,10 @@
         "soguk"
       ],
       "popular": false,
-      "image": "/uploads/m-frappe.svg"
+      "image": "/uploads/m-frappe.svg",
+      "details": "Buz, süt ve espressonun blenderda karıştırılıp krema ve karamel sosla servis edilen serinletici bir içecek.",
+      "ingredients": "Espresso, süt, buz, krema, karamel sos",
+      "allergens": "Süt"
     },
     {
       "name": "Espresso Tonic",
@@ -42,7 +51,10 @@
         "soguk"
       ],
       "popular": false,
-      "image": "/uploads/m-espresso-tonic.svg"
+      "image": "/uploads/m-espresso-tonic.svg",
+      "details": "Tonik su, buz ve espressonun taze portakal dilimiyle buluştuğu ferah, hafif gazlı bir içecek.",
+      "ingredients": "Espresso, tonik su, buz, portakal",
+      "allergens": "Yok"
     },
     {
       "name": "Affogato",
@@ -50,7 +62,10 @@
       "price": "115 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-affogato.svg"
+      "image": "/uploads/m-affogato.svg",
+      "details": "Vanilyalı dondurmanın üzerine sıcak espresso dökülür. Hem tatlı hem kahve, iki dünyanın en iyisi.",
+      "ingredients": "Espresso, vanilyalı dondurma",
+      "allergens": "Süt"
     }
   ]
 }

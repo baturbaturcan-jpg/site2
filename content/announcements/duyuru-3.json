@@ -1,0 +1,13 @@
+{
+  "title": "İkinci kahve yarı fiyatına",
+  "subtitle": "Kasım Kampanyası",
+  "text": "Hafta sonları 14:00 - 17:00 arası, tüm kahvelerde geçerli.",
+  "image": "/uploads/duyuru-kampanya.svg",
+  "bg_color": "#a8702f",
+  "link_label": "Menüyü Gör",
+  "link_url": "/menu/",
+  "from": "2026-11-01",
+  "until": "2026-11-30",
+  "yearly": false,
+  "active": true
+}

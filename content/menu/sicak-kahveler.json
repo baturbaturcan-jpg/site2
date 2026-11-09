@@ -9,7 +9,10 @@
       "price": "70 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-espresso.svg"
+      "image": "/uploads/m-espresso.svg",
+      "details": "Her sabah ayarlanan değirmenimizle çekilen, 25-30 saniyede akan tek shot. Kakao ve karamel notaları, uzun ve tatlı bir bitiş sunar.",
+      "ingredients": "Taze kavrulmuş kahve çekirdeği",
+      "allergens": "Yok"
     },
     {
       "name": "Americano",
@@ -17,7 +20,10 @@
       "price": "80 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-americano.svg"
+      "image": "/uploads/m-americano.svg",
+      "details": "Çift shot espresso üzerine sıcak su eklenir. Hafif gövdeli, günün her saatine uygun bir fincan.",
+      "ingredients": "Espresso, sıcak su",
+      "allergens": "Yok"
     },
     {
       "name": "Latte",
@@ -27,7 +33,10 @@
         "sicak"
       ],
       "popular": true,
-      "image": "/uploads/m-latte.svg"
+      "image": "/uploads/m-latte.svg",
+      "details": "Çift shot espresso ve ipeksi dokulu buharlanmış süt. Süt alternatifi olarak yulaf ya da badem seçebilirsiniz.",
+      "ingredients": "Espresso, süt",
+      "allergens": "Süt"
     },
     {
       "name": "Cappuccino",
@@ -35,7 +44,10 @@
       "price": "95 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/m-cappuccino.svg"
+      "image": "/uploads/m-cappuccino.svg",
+      "details": "Eşit parça espresso, süt ve yoğun süt köpüğü. Geleneksel İtalyan tarifi, küçük fincanda servis edilir.",
+      "ingredients": "Espresso, süt",
+      "allergens": "Süt"
     },
     {
       "name": "Flat White",
@@ -43,7 +55,10 @@
       "price": "100 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-flat-white.svg"
+      "image": "/uploads/m-flat-white.svg",
+      "details": "Çift ristretto ve ince dokulu süt. Kahve tadı öne çıkar, köpük azdır.",
+      "ingredients": "Ristretto, süt",
+      "allergens": "Süt"
     },
     {
       "name": "Cortado",
@@ -51,7 +66,10 @@
       "price": "90 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-cortado.svg"
+      "image": "/uploads/m-cortado.svg",
+      "details": "Espresso ve eşit miktarda sıcak süt. Sütün asiditeyi yumuşattığı küçük ve dengeli bir içecek.",
+      "ingredients": "Espresso, süt",
+      "allergens": "Süt"
     },
     {
       "name": "Türk Kahvesi",
@@ -59,7 +77,10 @@
       "price": "75 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-turk-kahvesi.svg"
+      "image": "/uploads/m-turk-kahvesi.svg",
+      "details": "Közde, cezvede pişirilir. Yanında lokum ve bir bardak su servis edilir. Sade, orta ya da şekerli seçenekleri vardır.",
+      "ingredients": "İnce öğütülmüş kahve, su, lokum",
+      "allergens": "Yok"
     },
     {
       "name": "Filtre Kahve",
@@ -69,7 +90,10 @@
         "yeni"
       ],
       "popular": false,
-      "image": "/uploads/m-filtre-kahve.svg"
+      "image": "/uploads/m-filtre-kahve.svg",
+      "details": "Her hafta değişen tek köken çekirdek, V60 ile elde demlenir. Temiz, meyvemsi ve hafif bir fincan.",
+      "ingredients": "Tek köken kahve, su",
+      "allergens": "Yok"
     }
   ]
 }

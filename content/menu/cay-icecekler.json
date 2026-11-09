@@ -9,7 +9,10 @@
       "price": "35 ₺",
       "tags": [],
       "popular": true,
-      "image": "/uploads/m-demleme-cay.svg"
+      "image": "/uploads/m-demleme-cay.svg",
+      "details": "Rize çayı, demlikte demlenir ve ince belli bardakta servis edilir. İkinci bardak yarı fiyatına.",
+      "ingredients": "Siyah çay",
+      "allergens": "Yok"
     },
     {
       "name": "Bitki Çayı",
@@ -19,7 +22,10 @@
         "vegan"
       ],
       "popular": false,
-      "image": "/uploads/m-bitki-cayi.svg"
+      "image": "/uploads/m-bitki-cayi.svg",
+      "details": "Ihlamur, adaçayı ya da kuşburnu seçenekleriyle rahatlatıcı sıcak bir mola.",
+      "ingredients": "Kurutulmuş bitkiler, sıcak su",
+      "allergens": "Yok"
     },
     {
       "name": "Ev Limonatası",
@@ -30,7 +36,10 @@
         "vegan"
       ],
       "popular": false,
-      "image": "/uploads/m-ev-limonatasi.svg"
+      "image": "/uploads/m-ev-limonatasi.svg",
+      "details": "Taze limon suyu, nane ve az şekerle her gün hazırlanır, buzlu servis edilir.",
+      "ingredients": "Limon, nane, şeker, su, buz",
+      "allergens": "Yok"
     },
     {
       "name": "Sıcak Çikolata",
@@ -38,7 +47,10 @@
       "price": "95 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-sicak-cikolata.svg"
+      "image": "/uploads/m-sicak-cikolata.svg",
+      "details": "Bitter çikolata ve sütle yavaşça ısıtılır, üzerine marshmallow eklenir. Soğuk günlerin kurtarıcısı.",
+      "ingredients": "Bitter çikolata, süt, marshmallow",
+      "allergens": "Süt, soya"
     },
     {
       "name": "Chai Latte",
@@ -46,7 +58,10 @@
       "price": "90 ₺",
       "tags": [],
       "popular": false,
-      "image": "/uploads/m-chai-latte.svg"
+      "image": "/uploads/m-chai-latte.svg",
+      "details": "Tarçın, kakule ve karanfil baharatlı siyah çay, buharlanmış süt ile buluşur.",
+      "ingredients": "Siyah çay, baharat karışımı, süt",
+      "allergens": "Süt"
     }
   ]
 }
