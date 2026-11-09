@@ -52,6 +52,21 @@ collections:
             fields:
               - { label: Görsel, name: image, widget: image, required: false }
               - { label: Açıklama, name: caption, widget: string }
+          - label: Özellik Kutuları (ana sayfa)
+            name: features
+            widget: list
+            required: false
+            fields:
+              - { label: Simge (emoji), name: icon, widget: string }
+              - { label: Başlık, name: title, widget: string }
+              - { label: Metin, name: text, widget: string }
+          - label: Misafir Yorumları
+            name: reviews
+            widget: list
+            required: false
+            fields:
+              - { label: İsim, name: name, widget: string }
+              - { label: Yorum, name: text, widget: text }
           - label: Menü Bağlantıları
             name: menu
             widget: list

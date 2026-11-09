@@ -101,3 +101,16 @@ footer .hours li{border-color:#4a3a2c}
   .gal{grid-template-columns:1fr 1fr}.row2,.row3{grid-template-columns:1fr}
   .head{position:static}.chips{top:0}
 }
+
+/* Özellikler ve yorumlar */
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:0 0 60px}
+.feat{background:var(--card);border-radius:18px;padding:24px}
+.feat i{font-style:normal;font-size:34px}
+.feat h3{margin:8px 0 4px;font-size:21px}
+.feat p{margin:0;color:var(--mut);font-size:15px;line-height:1.55}
+.revs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.rev{margin:0;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.rev .stars{color:#e0a030;letter-spacing:2px}
+.rev p{font-style:italic;margin:8px 0 12px;font-size:16px}
+.rev b{font:700 14px var(--sans);color:var(--acc)}
+@media(max-width:860px){.feats{grid-template-columns:1fr}}

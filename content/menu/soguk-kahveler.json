@@ -5,17 +5,17 @@
   "items": [
     {
       "name": "Cold Brew",
-      "description": "18 saat soğuk demlenmiş",
+      "description": "18 saat soğuk demlenmiş, tatlı ve yumuşak içimli",
       "price": "105 ₺",
       "tags": [
         "soguk"
       ],
       "popular": true,
-      "image": ""
+      "image": "/uploads/coldbrew.svg"
     },
     {
       "name": "Iced Latte",
-      "description": "Buzlu süt ve espresso",
+      "description": "Buz, süt ve çift shot espresso",
       "price": "100 ₺",
       "tags": [
         "soguk"
@@ -25,7 +25,7 @@
     },
     {
       "name": "Frappe",
-      "description": "Buzlu, kremalı",
+      "description": "Buzlu, kremalı, karamel sosuyla",
       "price": "110 ₺",
       "tags": [
         "soguk"
@@ -35,12 +35,20 @@
     },
     {
       "name": "Espresso Tonic",
-      "description": "Tonik ve espresso",
+      "description": "Tonik su, espresso ve bir dilim portakal",
       "price": "105 ₺",
       "tags": [
         "yeni",
         "soguk"
       ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Affogato",
+      "description": "Vanilyalı dondurma üzerine sıcak espresso",
+      "price": "115 ₺",
+      "tags": [],
       "popular": false,
       "image": ""
     }

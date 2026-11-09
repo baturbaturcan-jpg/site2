@@ -5,15 +5,15 @@
   "items": [
     {
       "name": "Demleme Çay",
-      "description": "Süzme, bardakta",
+      "description": "Rize çayı, süzme, ince belli bardakta",
       "price": "35 ₺",
       "tags": [],
-      "popular": false,
-      "image": ""
+      "popular": true,
+      "image": "/uploads/cay.svg"
     },
     {
       "name": "Bitki Çayı",
-      "description": "Mevsim bitkileri",
+      "description": "Ihlamur, adaçayı, ya da kuşburnu",
       "price": "60 ₺",
       "tags": [
         "vegan"
@@ -23,7 +23,7 @@
     },
     {
       "name": "Ev Limonatası",
-      "description": "Taze nane ile",
+      "description": "Taze nane ve limon, hafif tatlı",
       "price": "75 ₺",
       "tags": [
         "soguk",
@@ -34,8 +34,16 @@
     },
     {
       "name": "Sıcak Çikolata",
-      "description": "Bitter çikolata ile",
+      "description": "Bitter çikolata, beyaz marshmallow ile",
       "price": "95 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Chai Latte",
+      "description": "Baharatlı çay, sıcak süt",
+      "price": "90 ₺",
       "tags": [],
       "popular": false,
       "image": ""

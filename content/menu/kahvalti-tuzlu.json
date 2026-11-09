@@ -1,0 +1,41 @@
+{
+  "title": "Kahvaltı & Tuzlular",
+  "order": 4,
+  "note": "Sabah 08:00 - 12:00 arası kahvaltı tabağı servis edilir.",
+  "items": [
+    {
+      "name": "Avokadolu Tost",
+      "description": "Ekşi mayalı ekmek, avokado, kırmızı biber, nar ekşisi",
+      "price": "150 ₺",
+      "tags": [
+        "vegan"
+      ],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Kahvaltı Tabağı",
+      "description": "Peynir çeşitleri, zeytin, bal-kaymak, yumurta, domates, salatalık",
+      "price": "260 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Peynirli Tost",
+      "description": "Kaşar, beyaz peynir, ekşi mayalı ekmek",
+      "price": "120 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Mercimek Çorbası",
+      "description": "Günlük, limon ve ekmek ile",
+      "price": "80 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    }
+  ]
+}

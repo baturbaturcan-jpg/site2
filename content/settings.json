@@ -2,15 +2,15 @@
   "site_title": "Kahve Durağı",
   "tagline": "Taze kavrulmuş çekirdek, sıcak bir köşe",
   "announce_on": true,
-  "announce_text": "Hafta sonu özel: ikinci kahve yarı fiyatına!",
+  "announce_text": "Hafta sonu özel: 14:00-17:00 arası ikinci kahve yarı fiyatına!",
   "announce_url": "/menu/",
-  "kicker": "Her gün taze kavrulur",
+  "kicker": "Her sabah taze kavrulur",
   "hero_title": "Günün en güzel molası burada",
-  "hero_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "hero_image": "/uploads/hero.jpg",
-  "about_title": "Hikâyemiz",
-  "about_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  "about_image": "/uploads/hakkimizda.jpg",
+  "hero_text": "Küçük partilerde kavurduğumuz çekirdekleri, her sabah ev yapımı tatlılarla buluşturuyoruz. Kitabınızı, dizüstü bilgisayarınızı ya da sevdiklerinizi alın, gelin.",
+  "hero_image": "/uploads/hero.svg",
+  "about_title": "Küçük bir dükkân, büyük bir tutku",
+  "about_text": "Kahve Durağı, 2019 yılında iki arkadaşın evde kahve kavurma merakıyla başladı. Önce komşulara sattığımız çekirdekler, bugün her sabah dükkânın arka odasında küçük partiler hâlinde kavruluyor.\n\nTatlılarımızı her gün sabah erkenden, katkı maddesi kullanmadan kendi mutfağımızda hazırlıyoruz. Reçetelerimizin çoğu, annelerimizin defterlerinden geliyor.\n\nBurası bir kafeden çok, mahallenin oturma odası olmayı hedefliyor. Acele etmeyin, bir kahve daha için.",
+  "about_image": "/uploads/hakkimizda.svg",
   "address": "Örnek Mah. Kahve Sok. No:7, Beyoğlu / İstanbul",
   "map_query": "Galata Kulesi, İstanbul",
   "phone": "0212 000 00 00",
@@ -64,28 +64,28 @@
   ],
   "gallery": [
     {
-      "image": "/uploads/galeri-1.jpg",
+      "image": "/uploads/galeri-1.svg",
       "caption": "Sabah kahvesi"
     },
     {
-      "image": "/uploads/galeri-2.jpg",
+      "image": "/uploads/galeri-2.svg",
       "caption": "Tatlı tezgâhı"
     },
     {
-      "image": "/uploads/galeri-3.jpg",
+      "image": "/uploads/galeri-3.svg",
       "caption": "Barista anı"
     },
     {
-      "image": "/uploads/galeri-4.jpg",
-      "caption": "Bahçe köşesi"
-    },
-    {
-      "image": "/uploads/galeri-5.jpg",
+      "image": "/uploads/galeri-4.svg",
       "caption": "Çekirdek seçkisi"
     },
     {
-      "image": "/uploads/galeri-6.jpg",
-      "caption": "Akşam ışığı"
+      "image": "/uploads/galeri-5.svg",
+      "caption": "Soğuk demleme"
+    },
+    {
+      "image": "/uploads/galeri-6.svg",
+      "caption": "Çay saati"
     }
   ],
   "menu": [
@@ -108,6 +108,41 @@
     {
       "label": "İletişim",
       "url": "/iletisim/"
+    }
+  ],
+  "features": [
+    {
+      "icon": "☕",
+      "title": "Taze Kavrum",
+      "text": "Çekirdeklerimizi haftalık küçük partilerde kavuruyor, en geç 10 gün içinde servis ediyoruz."
+    },
+    {
+      "icon": "🥐",
+      "title": "Ev Yapımı Tatlılar",
+      "text": "Her sabah taze: cheesecake, brownie, kurabiye ve mevsim tatlıları, katkısız."
+    },
+    {
+      "icon": "📶",
+      "title": "Çalışma Dostu",
+      "text": "Hızlı Wi-Fi, bol priz ve sessiz bir köşe. Laptopunuzla gününüzü burada geçirebilirsiniz."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Elif K.",
+      "text": "Cold brew'u şehirde içtiğim en iyisi. Cheesecake ise ayrı bir hikâye, hafta sonu mutlaka erken gelin."
+    },
+    {
+      "name": "Mert A.",
+      "text": "Çalışmak için ideal. Barista arkadaşlar çekirdekleri çok güzel anlatıyor, her gelişimde yeni bir şey öğreniyorum."
+    },
+    {
+      "name": "Zeynep & Can",
+      "text": "Doğum günü rezervasyonumuzu yaptık, küçük bir sürpriz hazırlamışlar. Çok içten bir yer."
+    },
+    {
+      "name": "Hasan B.",
+      "text": "Türk kahvesi tam kıvamında, yanında gelen lokum da cabası. Mahallenin en keyifli köşesi."
     }
   ]
 }

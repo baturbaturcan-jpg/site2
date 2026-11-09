@@ -12,7 +12,7 @@ const list = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => f.endsWith('.
 const T = n => fs.readFileSync(path.join(root, 'templates', n + '.html'), 'utf8');
 const R = (n, v) => T(n).replace(/{{(\w+)}}/g, (_, k) => v[k] ?? '');
 
-const S = { hours: [], gallery: [], menu: [], ...read(path.join(root, 'content/settings.json')) };
+const S = { hours: [], gallery: [], menu: [], features: [], reviews: [], ...read(path.join(root, 'content/settings.json')) };
 const menuCats = list(path.join(root, 'content/menu')).sort((a, b) => (a.order || 99) - (b.order || 99));
 const TAGS = { vegan: 'Vegan', glutensiz: 'Glutensiz', yeni: 'Yeni', soguk: 'Soğuk', sicak: 'Sıcak', sekersiz: 'Şekersiz' };
 const DAYS = ['Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi','Pazar'];
@@ -55,6 +55,8 @@ write('', '', '', R('home', {
   open: openBox, popular: popular.map(i => itemCard(i, i._c)).join(''),
   about_title: esc(S.about_title), about_text: body(S.about_text), about_media: ph(S.about_title, S.about_image),
   hours: hoursHtml, address: esc(S.address), map: mapSrc,
+  features: (S.features || []).map(f => `<div class="feat"><i>${esc(f.icon)}</i><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p></div>`).join(''),
+  reviews: (S.reviews || []).map(r => `<blockquote class="rev"><span class="stars">★★★★★</span><p>${esc(r.text)}</p><b>${esc(r.name)}</b></blockquote>`).join(''),
   gallery: (S.gallery || []).map(g => `<figure>${ph(g.caption, g.image)}<figcaption>${esc(g.caption)}</figcaption></figure>`).join(''),
 }));
 

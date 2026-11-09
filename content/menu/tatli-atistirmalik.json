@@ -1,48 +1,57 @@
 {
   "title": "Tatlılar & Atıştırmalıklar",
-  "order": 4,
+  "order": 5,
   "note": "Günlük taze hazırlanır, tükenen ürünler yenilenmez.",
   "items": [
     {
       "name": "San Sebastian Cheesecake",
-      "description": "Yumuşak içli, yanık yüzey",
+      "description": "Yumuşak içli, yanık yüzeyli, yaban mersini sosu ile",
       "price": "140 ₺",
       "tags": [],
       "popular": true,
-      "image": ""
+      "image": "/uploads/cheesecake.svg"
     },
     {
       "name": "Brownie",
-      "description": "Sıcak servis, dondurma ile",
+      "description": "Bitter çikolatalı, sıcak servis, vanilyalı dondurma ile",
       "price": "120 ₺",
       "tags": [],
-      "popular": false,
-      "image": ""
+      "popular": true,
+      "image": "/uploads/brownie.svg"
     },
     {
       "name": "Tuzlu Kurabiye",
-      "description": "Tereyağlı",
+      "description": "Tereyağlı, deniz tuzlu, çıtır",
       "price": "55 ₺",
       "tags": [],
       "popular": false,
       "image": ""
     },
     {
-      "name": "Avokadolu Tost",
-      "description": "Ekşi mayalı ekmek",
-      "price": "150 ₺",
+      "name": "Limonlu Tart",
+      "description": "Ekşi-tatlı denge, ince hamur",
+      "price": "110 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
+      "name": "Glutensiz Badem Kek",
+      "description": "Portakal kabuğu rendesi ile",
+      "price": "90 ₺",
       "tags": [
-        "vegan"
+        "glutensiz"
       ],
       "popular": false,
       "image": ""
     },
     {
-      "name": "Glutensiz Kek",
-      "description": "Badem unlu",
-      "price": "90 ₺",
+      "name": "Vegan Havuçlu Kek",
+      "description": "Cevizli, tarçınlı, krema yerine hindistan cevizi",
+      "price": "95 ₺",
       "tags": [
-        "glutensiz"
+        "vegan",
+        "yeni"
       ],
       "popular": false,
       "image": ""

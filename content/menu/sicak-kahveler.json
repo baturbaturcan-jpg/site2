@@ -1,11 +1,11 @@
 {
   "title": "Sıcak Kahveler",
   "order": 1,
-  "note": "Tüm sıcak kahvelerimizde taze çekirdek kullanılır.",
+  "note": "Tüm sıcak kahvelerimizde haftalık taze kavrulmuş çekirdek kullanılır. Süt alternatifi (yulaf, badem) +15 ₺.",
   "items": [
     {
       "name": "Espresso",
-      "description": "Yoğun ve aromatik tek shot",
+      "description": "Yoğun, tatlı ve uzun bir bitişe sahip tek shot",
       "price": "70 ₺",
       "tags": [],
       "popular": false,
@@ -13,7 +13,7 @@
     },
     {
       "name": "Americano",
-      "description": "Espresso ve sıcak su",
+      "description": "Espresso ve sıcak su, hafif gövdeli",
       "price": "80 ₺",
       "tags": [],
       "popular": false,
@@ -21,33 +21,41 @@
     },
     {
       "name": "Latte",
-      "description": "Espresso ve buharla ısıtılmış süt",
+      "description": "Çift shot espresso ve kadifemsi buharlanmış süt",
       "price": "95 ₺",
       "tags": [
         "sicak"
       ],
       "popular": true,
-      "image": ""
+      "image": "/uploads/latte.svg"
     },
     {
       "name": "Cappuccino",
-      "description": "Eşit parça espresso, süt ve köpük",
+      "description": "Eşit parça espresso, süt ve yoğun süt köpüğü",
       "price": "95 ₺",
       "tags": [],
       "popular": true,
-      "image": ""
+      "image": "/uploads/kapuccino.svg"
     },
     {
       "name": "Flat White",
-      "description": "Kadifemsi süt dokusu, çift shot",
+      "description": "Çift ristretto, ince dokulu süt, güçlü kahve tadı",
       "price": "100 ₺",
       "tags": [],
       "popular": false,
       "image": ""
     },
     {
+      "name": "Cortado",
+      "description": "Espresso ve az miktarda sıcak süt, dengeli",
+      "price": "90 ₺",
+      "tags": [],
+      "popular": false,
+      "image": ""
+    },
+    {
       "name": "Türk Kahvesi",
-      "description": "Közde, lokum eşliğinde",
+      "description": "Közde pişirilir, lokum ve su eşliğinde",
       "price": "75 ₺",
       "tags": [],
       "popular": false,
@@ -55,7 +63,7 @@
     },
     {
       "name": "Filtre Kahve",
-      "description": "Günün çekirdeği, demleme",
+      "description": "Günün tek köken çekirdeği, V60 demleme",
       "price": "85 ₺",
       "tags": [
         "yeni"
