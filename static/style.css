@@ -119,7 +119,7 @@ footer .hours li{border-color:#4a3a2c}
 :root{--script:"Segoe Script","Caveat","Bradley Hand","Brush Script MT",cursive}
 .head{background:var(--head,#dfcfb4);border-bottom:3px solid var(--dark)}
 .head .in{padding-top:16px;padding-bottom:16px}
-.logo{display:flex;align-items:center;gap:10px;font:700 44px/1 var(--script);color:var(--dark)}
+.logo{display:flex;align-items:center;gap:10px;font:700 44px/1 var(--script);color:#6b4226}
 .logo-ico{font-size:36px}
 .logo-img{height:56px;width:auto;border-radius:8px}
 

@@ -13,7 +13,7 @@ const list = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => f.endsWith('.
 const T = n => fs.readFileSync(path.join(root, 'templates', n + '.html'), 'utf8');
 const R = (n, v) => T(n).replace(/{{(\w+)}}/g, (_, k) => v[k] ?? '');
 
-const S = { hours: [], gallery: [], menu: [], features: [], reviews: [], venue: [], ads: [], logo_icon: '☕', header_color: '#dfcfb4', header_note: 'Rezervasyon & Telefon', ...read(path.join(root, 'content/settings.json')) };
+const S = { hours: [], gallery: [], menu: [], features: [], reviews: [], venue: [], ads: [], logo_icon: '☕', header_color: '#dfcfb4', header_note: 'Rezervasyon', ...read(path.join(root, 'content/settings.json')) };
 const menuCats = list(path.join(root, 'content/menu')).sort((a, b) => (a.order || 99) - (b.order || 99));
 const events = list(path.join(root, 'content/events')).filter(e => e.active !== false && e.date).sort((a, b) => String(a.date).localeCompare(String(b.date)) || String(a.time || '').localeCompare(String(b.time || '')));
 const TAGS = { vegan: 'Vegan', glutensiz: 'Glutensiz', yeni: 'Yeni', soguk: 'Soğuk', sicak: 'Sıcak', sekersiz: 'Şekersiz' };
