@@ -169,7 +169,7 @@
       "caption": "Bir fincan kahve, yanında sıcacık çörek"
     }
   ],
-  "logo_uppercase": true,
+  "logo_uppercase": false,
   "header_note": "Rezervasyon & Telefon",
   "ads_on": true,
   "ad_placeholders": true,
